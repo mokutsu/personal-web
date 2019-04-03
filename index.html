@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Hey, this meta tag for x-ua-compatible might be unnecessary unless you really really want to support older browsers (eg ie11 and older)?  That said, we're using a lot of HTML5 features, so I'm not sure the page would work in very old browsers anyways. More info here https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/compatibility/jj676915(v=vs.85) -->
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- <meta http-equiv="X-UA-Compatible" content="ie=edge" /> -->
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
@@ -16,50 +16,66 @@
   </head>
   <body>
     <header>
-    <figure>
-      <img src="img/images.jpeg" alt="" />
-      <!-- consider adding a <figcaption> here to describe the image! -->
+      <figure>
+        <img src="img/38d10185a98b.jpeg" alt="Web Developer" />
+        <!-- consider adding a <figcaption> here to describe the image! -->
       </figure>
       <h1>Allison Chen</h1>
       <!-- Did we pick h5 here because it was the right font size or because teh content is like a sub-sub-sub-sub-heading? Should this maybe be an h2? -->
-      <h5>Front-End Developer</h5>
+      <h2>Front-End Developer</h2>
       <!-- consider adding accessible attributes like aria-label (labels to be read by a screen reader for visually impaired users), and aria-hidden (dont read out this icon), first link for linkedin implemented as an example -->
-      <a href="http://linkedin.com" class="text-white" aria-label="link to linkedin">
+      <a
+        href="http://linkedin.com"
+        class="text-white"
+        aria-label="link to linkedin"
+      >
         <i class="fab fa-linkedin" aria-hidden="true"></i>
       </a>
-      <a href="http://github.com" class="text-white">
-        <i class="fab fa-github"></i>
+      <a
+        href="http://github.com"
+        class="text-white"
+        aria-label="link to github"
+      >
+        <i class="fab fa-github" aria-hidden="true"></i>
       </a>
-      <a href="http://twitter.com" class="text-white">
-        <i class="fab fa-twitter"></i>
+      <a
+        href="http://twitter.com"
+        class="text-white"
+        aria-label="link to twitter"
+      >
+        <i class="fab fa-twitter" aria-hidden="true"></i>
       </a>
-      <a href="http://instagram.com" class="text-white">
-        <i class="fab fa-instagram"></i>
+      <a
+        href="http://instagram.com"
+        class="text-white"
+        aria-label="link to instagram"
+      >
+        <i class="fab fa-instagram" aria-hidden="true"></i>
       </a>
-    
-  </header>
-  <main>
-    <article>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo
-        reprehenderit ducimus tempora hic deleniti consequatur magnam
-        necessitatibus eaque iure dolor!
-      </p>
-    </article>
-    <article>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo
-        reprehenderit ducimus tempora hic deleniti consequatur magnam
-        necessitatibus eaque iure dolor!
-      </p>
-    </article>
-    <article>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo
-        reprehenderit ducimus tempora hic deleniti consequatur magnam
-        necessitatibus eaque iure dolor!
-      </p>
-    </article>
-  </main>
+    </header>
+    <main>
+      <article>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo
+          reprehenderit ducimus tempora hic deleniti consequatur magnam
+          necessitatibus eaque iure dolor!
+        </p>
+      </article>
+      <article>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo
+          reprehenderit ducimus tempora hic deleniti consequatur magnam
+          necessitatibus eaque iure dolor!
+        </p>
+      </article>
+      <article>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo
+          reprehenderit ducimus tempora hic deleniti consequatur magnam
+          necessitatibus eaque iure dolor!
+        </p>
+      </article>
+    </main>
+    <footer></footer>
   </body>
 </html>

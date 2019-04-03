@@ -2,11 +2,17 @@
   box-sizing: border-box;
 }
 
-figure,
-article {
+header,
+main {
   text-align: center;
 }
 
-body {
-  background-color: rgba(0, 0, 0, 0.6);
+a {
+  text-decoration: none;
+  color: green;
+}
+
+/* how do I make the icons have their orignal color? */
+i {
+  padding-right: 10px;
 }
