@@ -13,6 +13,16 @@ a {
 }
 
 /* how do I make the icons have their orignal color? */
+/* hey! css is set in order of specificity, so generic tags are less specific than class names.  You can target these icons by their class name (e.g. a.text-white) and unset the color rule there, or you can override the <a> colour rule with a color rule on the icon, "i" html tag itself (the value  just can't be "unset" because the color set is not on the same selector) */
+a.text-white {
+  color: unset;
+}
+
 i {
   padding-right: 10px;
+  /* alternatively, add color rule here? */
+}
+
+img {
+  width: 100%;
 }
